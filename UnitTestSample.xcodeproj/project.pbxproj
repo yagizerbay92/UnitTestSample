@@ -16,6 +16,7 @@
 		43B997872953201E00498F0B /* UnitTestSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B997862953201E00498F0B /* UnitTestSampleTests.swift */; };
 		43B997912953201E00498F0B /* UnitTestSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B997902953201E00498F0B /* UnitTestSampleUITests.swift */; };
 		43B997932953201E00498F0B /* UnitTestSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B997922953201E00498F0B /* UnitTestSampleUITestsLaunchTests.swift */; };
+		43B997A02953414700498F0B /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B9979F2953414700498F0B /* Vehicle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		43B9978C2953201E00498F0B /* UnitTestSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B997902953201E00498F0B /* UnitTestSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSampleUITests.swift; sourceTree = "<group>"; };
 		43B997922953201E00498F0B /* UnitTestSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43B9979F2953414700498F0B /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				43B997782953201C00498F0B /* Assets.xcassets */,
 				43B9977A2953201C00498F0B /* LaunchScreen.storyboard */,
 				43B9977D2953201C00498F0B /* Info.plist */,
+				43B9979F2953414700498F0B /* Vehicle.swift */,
 			);
 			path = UnitTestSample;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B997A02953414700498F0B /* Vehicle.swift in Sources */,
 				43B997742953201900498F0B /* ViewController.swift in Sources */,
 				43B997702953201900498F0B /* AppDelegate.swift in Sources */,
 				43B997722953201900498F0B /* SceneDelegate.swift in Sources */,
