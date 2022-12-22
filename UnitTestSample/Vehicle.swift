@@ -7,9 +7,17 @@
 
 import Foundation
 
+enum VehicleType {
+    case PassengerAircraft
+    case FighterJet
+    case HighSpeedTrain
+    case Car
+    case Bicycle
+}
+
 class Vehicle {
-    private var miles = 0
-    private let type: VehicleType
+    private var kilometers = 0
+    private var type: VehicleType
     
     init(type: VehicleType) {
         self.type = type
@@ -20,29 +28,21 @@ class Vehicle {
         
         switch type {
         case .PassengerAircraft:
-            speed = 575
+            speed = 926
         case .FighterJet:
-            speed = 1320
+            speed = 2125
         case .HighSpeedTrain:
-            speed = 217
+            speed = 350
         case .Car:
-            speed = 100
+            speed = 160
         case .Bicycle:
-            speed = 10
+            speed = 16
         }
 
-        self.miles = speed * (minutes / 60)
+        self.kilometers = speed * (minutes / 60)
     }
     
-    func returnMiles() -> Int {
-        return self.miles
+    func returnKilometers() -> Int {
+        return self.kilometers
     }
-}
-
-enum VehicleType {
-    case PassengerAircraft
-    case FighterJet
-    case HighSpeedTrain
-    case Car
-    case Bicycle
 }

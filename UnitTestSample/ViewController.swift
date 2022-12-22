@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let mercedes = Vehicle(type: .Car)
         mercedes.startEngine(minutes: 60)
-        print(mercedes.returnMiles())
+        print(mercedes.returnKilometers())
     }
 
 }

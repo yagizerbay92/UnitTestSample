@@ -17,6 +17,7 @@
 		43B997912953201E00498F0B /* UnitTestSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B997902953201E00498F0B /* UnitTestSampleUITests.swift */; };
 		43B997932953201E00498F0B /* UnitTestSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B997922953201E00498F0B /* UnitTestSampleUITestsLaunchTests.swift */; };
 		43B997A02953414700498F0B /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B9979F2953414700498F0B /* Vehicle.swift */; };
+		43B997A42953660600498F0B /* VehicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B997A32953660600498F0B /* VehicleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		43B997902953201E00498F0B /* UnitTestSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSampleUITests.swift; sourceTree = "<group>"; };
 		43B997922953201E00498F0B /* UnitTestSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		43B9979F2953414700498F0B /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		43B997A32953660600498F0B /* VehicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +106,11 @@
 				43B9976F2953201900498F0B /* AppDelegate.swift */,
 				43B997712953201900498F0B /* SceneDelegate.swift */,
 				43B997732953201900498F0B /* ViewController.swift */,
+				43B9979F2953414700498F0B /* Vehicle.swift */,
 				43B997752953201900498F0B /* Main.storyboard */,
 				43B997782953201C00498F0B /* Assets.xcassets */,
 				43B9977A2953201C00498F0B /* LaunchScreen.storyboard */,
 				43B9977D2953201C00498F0B /* Info.plist */,
-				43B9979F2953414700498F0B /* Vehicle.swift */,
 			);
 			path = UnitTestSample;
 			sourceTree = "<group>";
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				43B997862953201E00498F0B /* UnitTestSampleTests.swift */,
+				43B997A32953660600498F0B /* VehicleTests.swift */,
 			);
 			path = UnitTestSampleTests;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B997A42953660600498F0B /* VehicleTests.swift in Sources */,
 				43B997872953201E00498F0B /* UnitTestSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
